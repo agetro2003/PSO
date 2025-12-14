@@ -144,10 +144,3 @@ Por lo tanto, el algoritmo PSO, no es adecuado para este problema, siendo la for
 Esta clase, crea el enjambre con sus particulas en la inicialización, junto a una función run para ejecutar el algoritmo PSO y retornar la posición y el fitness de la mejor particula encontrada.
 
 - `Fitness`: son funciones encontradas en cada una de las implementaciones, y son enviadas a la clase PSO como argmento durante la inicialización de la clase. Estas funciones reciben la particula, a partir de la cual calcula el fitness.
-
-
-
-
-
-#   P S O  
- 

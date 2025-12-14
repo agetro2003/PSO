@@ -2,6 +2,7 @@ from pso import PSO
 import math
 import time
 def fitness(position):
+    time.sleep(0.001)
     sum = 0
     for x_i in position:
         abs_x = abs(x_i)
@@ -20,15 +21,14 @@ if __name__ == '__main__':
     min_bound = -500
     max_bound = 500
 
-    num_particles = 10000
-
-    iter = 100
-
-    w = 0.5
-
-    local_weight = 2
-
-    global_weight = 1
+    num_particles = 50
+    iter = 1000
+    # Peso de la inercia
+    w = 0.7
+    # Peso de la mejor solucion de la particula
+    local_weight = 1.5
+    # Peso de la mejor solucion global
+    global_weight = 1.5
 
     
     
